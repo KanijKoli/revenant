@@ -1,0 +1,126 @@
+/* Responsive CSS */
+
+@media only screen and (max-width: 1200px){
+    html{
+        font-size: 58%;
+    }
+    .top-title{
+        font-size: 6.5rem;
+    }
+    .get{
+        border-top: .2rem solid #d9d9d9;
+        border-bottom: none;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    html{
+        font-size: 56%;
+    }
+    .post-detail{
+        padding: 0;
+    }
+    .tag-post{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    html{
+        font-size: 54%;
+    }
+    .upper-menu{
+        display: none;
+    }
+    .page-title{
+        background-color: #f7f8fa;
+    }
+    .top-title{
+        font-size: 6rem;
+    }
+    .re-img{
+        width: 6rem;
+    }
+
+    .post-title{
+        padding-bottom: 1.2rem;
+    }
+    .bot-rev-non{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    html{
+        font-size: 55%;
+    }
+    .top-img:after,
+    .top-img:before{
+        display: none;
+    }
+    .learn{
+        display: none;
+    }
+    .res-pad{
+        padding-bottom: 3rem;
+    }
+    .latest{
+        display: none;
+    }
+    .test-pad{
+        padding-top: 1.5rem;
+    }
+    .test-detail{
+        font-size: 1.6rem;
+    }
+    .person-detail{
+        font-size: 1.6rem;
+    }
+    .asked{
+        padding-top: 8rem;
+    }
+    .footer-nav{
+        display: none;
+    }
+    .footer-detail{
+        float: none;
+        text-align: center;
+    }
+    .footer-section{
+        padding: 1.2rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .revenant{
+        font-size: 6.5rem;
+    }
+    .creative{
+        font-size: 1.6rem;
+    }
+    .top-title{
+        font-size: 5rem;
+        padding-top: 8rem;
+    }
+    .top-img{
+        height: 40rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .top-img{
+        height: 30rem;
+    }
+    .top-title{
+        font-size: 3rem;
+    }
+    .title-detail{
+        font-size: 1.4rem;
+    }
+    .check{
+        font-size: 1.8rem;
+    }
+    .con-pad{
+        padding-bottom: 5rem;
+    }
+}
